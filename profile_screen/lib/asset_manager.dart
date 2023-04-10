@@ -21,4 +21,16 @@ class AssetManager {
   static String user = './assets/images/green.png';
   static String logo = './assets/images/logo.png';
   static String showPassword = './assets/images/showpassword.png';
+  static String locationIcon = './assets/images/locationicon.png';
+  static String bannerImage1 = './assets/images/banner1.png';
+  static String bannerImage2 = './assets/images/banner2.png';
+
+  //
+  static String promoImage = './assets/images/promo1.png';
+  static String catagories = './assets/images/catagories.png';
+  static String forms = './assets/images/forms.png';
+  //
+  static String milk = './assets/images/milk.png';
+  static String dealblue = './assets/images/dealblue.png';
+  static String dealred = './assets/images/dealred.png';
 }

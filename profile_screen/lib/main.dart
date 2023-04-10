@@ -6,6 +6,8 @@ void main(List<String> args) {
   runApp(MaterialApp(
     debugShowCheckedModeBanner: false,
     theme: ThemeData(
+        textTheme:
+            const TextTheme(bodyMedium: TextStyle(color: Color(0xff415162))),
         unselectedWidgetColor: Colors.green,
         scaffoldBackgroundColor: Colors.white,
         fontFamily: 'open sans'),

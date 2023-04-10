@@ -8,7 +8,7 @@ GestureDetector loginbutton(BuildContext context) {
       decoration: BoxDecoration(
           borderRadius: BorderRadius.circular(8),
           color: const Color(0xff80B435)),
-      height: MediaQuery.of(context).size.height * 0.1,
+      height: MediaQuery.of(context).size.height * 0.09,
       width: MediaQuery.of(context).size.width * 0.95,
       child: const Center(
           child: Text(

@@ -21,7 +21,7 @@ class _LoginScreenTextFieldsState extends State<LoginScreenTextFields> {
           decoration: BoxDecoration(
               border: Border.all(width: 1, color: const Color(0xffC0C5CB)),
               borderRadius: BorderRadius.circular(8)),
-          height: MediaQuery.of(context).size.height * 0.1,
+          height: MediaQuery.of(context).size.height * 0.08,
           padding: const EdgeInsets.all(10),
           child: TextFormField(
             textInputAction: TextInputAction.next,
@@ -35,7 +35,7 @@ class _LoginScreenTextFieldsState extends State<LoginScreenTextFields> {
           decoration: BoxDecoration(
               border: Border.all(width: 1, color: const Color(0xffC0C5CB)),
               borderRadius: BorderRadius.circular(8)),
-          height: MediaQuery.of(context).size.height * 0.1,
+          height: MediaQuery.of(context).size.height * 0.08,
           padding: const EdgeInsets.all(12),
           child: TextFormField(
             textInputAction: TextInputAction.done,
